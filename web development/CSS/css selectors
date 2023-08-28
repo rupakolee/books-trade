@@ -1,6 +1,0 @@
-*Simple selectors(tag, id, class)
-*Combinator selectors:-
-    1. Decendent selector(space)
-    2. Child selector(>)
-    3. Adjacent selector(+)
-    4. General sibling selector(~)
