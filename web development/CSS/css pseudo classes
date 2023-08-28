@@ -1,0 +1,17 @@
+*CSS Pseudo classes
+->A pseudo-class is used to define a special state of an element
+
+For example:
+-style an element when a user mouses over it.
+-style visited and unvisited linus differently.
+-style an element when it gets focus.
+
+Syntax: 
+selector:pseudo-class {
+    property: value;
+}
+
+-first-child
+-lang
+-checked
+-invalid

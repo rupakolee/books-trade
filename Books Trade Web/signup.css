@@ -1,0 +1,60 @@
+.signup {
+    width: 450px;
+    margin: auto;
+    height: 16.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(108, 155, 241);
+    border-radius: 14px;
+}
+
+.signup p label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Signika', sans-serif;
+}
+
+#alt-login {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+#alt-login button {
+    padding: 6px;
+    border-radius: 14px;
+}
+
+#fb {
+    color: #fff;
+    background-color: rgb(61, 61, 247);
+    border: none;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+#gg {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#login-btn {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+#email, #password {
+    padding: 5px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 14px;
+    border: none;
+}

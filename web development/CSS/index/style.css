@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(219, 214, 214);
+}
+
+nav img {
+    width: 30px;
+}
+
+.search {
+    position: relative;
+}
+
+.search img {
+    position: absolute;
+    bottom: -6px;
+}
+
+nav input {
+    border: none;
+    border-radius: 14px;
+    padding: 4px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0 20px;
+    list-style: none;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-image: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.text {
+    width: 400px;
+    color: #fff;
+    margin: 0 40px;
+}
+
+#btn {
+    padding: 4px;
+    background: transparent;
+    color: #fff;
+    border-radius: 8px;
+    position: relative;
+}
+
+#btn::before {
+    background: hsl(45, 40%, 37%);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+
+#btn:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.grid {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid img,
+.grid article p {
+    height: 300px;
+    overflow: hidden;
+}

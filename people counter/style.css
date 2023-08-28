@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:  border-box;
+}
+
+.container {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color:rgb(44, 42, 165);
+}
+
+.count-box {
+    padding-top: 50px;
+}
+
+#increment-btn {
+    padding: 12px;
+    width: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 9px;
+    font-size: 28px;
+    color: #fff;
+    background-color: rgb(44, 42, 165);
+    cursor: pointer;
+}
+
+#increment-btn:hover {
+    background-color: rgb(228, 226, 148);
+    color: rgb(63, 60, 204);
+    transition: 0.8s;
+}
+
+#save-btn {
+    background-color: rgb(228, 226, 148);
+    width: 130px;
+    display: block;
+    margin: -8px auto;
+    font-size: 26px;
+    color: rgb(44, 42, 165);
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+#save-btn:hover {
+    color: rgb(228, 226, 148);
+    background-color: rgb(63, 60, 204);
+    transition: 0.8s;
+}
+
+.info {
+    padding: 20px;
+    text-align: center;
+    margin: 9px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    padding: 6px;
+    display: inline;
+}
+
+#reset-btn {
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+}
+
+#reset-btn:hover {
+    background-color: rgb(121, 119, 119);
+    color: #fff;
+    transition: 0.3s;
+}
